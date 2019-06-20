@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".SettingActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/profile_pic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Name"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/UserName"
+        android:layout_below="@+id/profile_image"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hi_there_i_m_using_chat_app"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/Userstatus"
+        android:layout_below="@+id/UserName"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_changeImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHANGE IMAGES"
+        android:layout_below="@+id/Userstatus"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorWhite"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/btn_ChangeStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHANGE STATUS"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_changeImage"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/colorWhite" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "809011320330",
+    "firebase_url": "https://chatapp-3ec78.firebaseio.com",
+    "project_id": "chatapp-3ec78",
+    "storage_bucket": "chatapp-3ec78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809011320330:android:ffe8b4107aae3c24",
+        "android_client_info": {
+          "package_name": "com.rai.vivek.chatappfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809011320330-u6m9u718dq5cb7e900bj7e9j32vmna5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rai.vivek.chatappfirebase",
+            "certificate_hash": "5e99252957a9f674e925e7e652a3a57c43ccaf00"
+          }
+        },
+        {
+          "client_id": "809011320330-0os309al3ajvipvv80dep23b2i8526os.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLKo4tWVapF-3-U6fFFd2gnsnKyt8HnW0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809011320330-0os309al3ajvipvv80dep23b2i8526os.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".StartActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/welcome_to_chat_app"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/start_loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/already_have_account"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/start_regbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_loginbtn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:backgroundTint="@color/colorWhite"
+        android:text="@string/need_a_new_account"
+        tools:targetApi="lollipop" />
+</RelativeLayout>
